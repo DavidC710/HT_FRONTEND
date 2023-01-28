@@ -1,0 +1,124 @@
+#About-us-1 {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#About-us-1::before {    
+      content: "";
+      background-image: url('src/assets/Imag/AboutUs/about-us-image.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+}
+#About-us-2 {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#About-us-2::before {    
+      content: "";
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+}
+h1 , h2, p {
+    position: relative;
+    line-height: 0.9;
+  }
+#ProjectImage2{
+    background-image: url('src/assets/Imag/AboutUs/Projects/Project2.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* opacity: 0.25; */
+}
+#ProjectImage3{
+    background-image: url('src/assets/Imag/AboutUs/Projects/Project3.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* opacity: 0.25; */
+}
+#ProjectImage{
+    background-image: url('src/assets/Imag/AboutUs/Projects/Project1.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* opacity: 0.25; */
+}
+
+/*Modals*/
+
+
+/* #ModalInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.modal-content-pages{
+    /* border: 1px solid;
+    border-color: rgb(235, 114, 188); */
+    background-color: #111214;
+    width: 50vw;
+    height: 70vh;
+    margin-right: 20rem !important;
+
+}
+
+/*************************/
+
+#CardContent{
+    background: linear-gradient(90deg, #3e2c69 1%, #983d67 100%);
+}
+#ButtonProject{
+    background-color: white;
+    border-radius: 10%;
+}
+#ButtonProject:hover{
+   background-color: #983d67;
+   color:azure;
+}
+#InfoCol{
+    background-color:#111214;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.card-title{
+    color:white;
+    text-align: center;
+}
+.card-text{
+    margin-top: 20%;
+    color:rgb(125, 128, 131);
+    
+}
+.btn-primary{
+    margin-top: 25%;
+    background-color: #983d67;
+
+}
